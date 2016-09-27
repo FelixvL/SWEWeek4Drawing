@@ -12,12 +12,14 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import week4drawingswe.javafx.ui.DrawingTool;
 
 /**
  *
  * @author DellLatFlex
  */
 public class Week4DrawingSWE extends Application {
+    DrawingTool drawingtool;
     
     @Override
     public void start(Stage primaryStage) {
