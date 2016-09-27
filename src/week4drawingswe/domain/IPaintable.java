@@ -5,10 +5,23 @@
  */
 package week4drawingswe.domain;
 
+import drawing.domain.Oval;
+import drawing.domain.PaintedText;
+import drawing.domain.Image;
+
+import java.awt.Point;
+
+import java.awt.Color;
+
 /**
  *
  * @author DellLatFlex
  */
 public interface IPaintable {
-    
+    void setColor(Color color);
+    void paintOval(Oval oval);
+    void paintLine(Point from, Point to, int weight);
+    void paintText(PaintedText text);
+    void paintImage(Image image);
+    void clear();
 }

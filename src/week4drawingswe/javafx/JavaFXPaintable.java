@@ -12,6 +12,6 @@ import javafx.scene.canvas.GraphicsContext;
  *
  * @author DellLatFlex
  */
-public class JavaFXPaintable implements IPaintable {
+public abstract class JavaFXPaintable implements IPaintable {
     private GraphicsContext gc;
 }
