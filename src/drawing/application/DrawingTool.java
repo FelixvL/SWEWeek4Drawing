@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package week4drawingswe;
+package drawing.application;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -12,13 +12,12 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
-import week4drawingswe.javafx.ui.DrawingTool;
 
 /**
  *
  * @author DellLatFlex
  */
-public class Week4DrawingSWE extends Application {
+public class DrawingTool extends Application {
     DrawingTool drawingtool;
     
     @Override
