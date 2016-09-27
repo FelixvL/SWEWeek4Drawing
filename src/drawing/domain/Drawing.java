@@ -14,6 +14,9 @@ public class Drawing {
         drawingItems = new ArrayList<DrawingItem>();
         System.out.println("New Drawing Created by Twan and Felix");
     }
+    void paint(IPaintable paintable){
+    
+    }
     
     public boolean addDrawingItem(DrawingItem di){        
         drawingItems.add(di);

@@ -65,4 +65,9 @@ public class Spline extends DrawingItem {
         saveOldState();
         this.degree = degree;
     }    
+
+    @Override
+    void paint(IPaintable paintable) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

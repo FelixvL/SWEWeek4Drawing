@@ -2,6 +2,7 @@ package drawing.domain;
 
 import java.awt.Color;
 import java.awt.Point;
+ 
 
 public abstract class DrawingItem implements Comparable<DrawingItem> {
     protected Point anchor;
@@ -13,6 +14,8 @@ public abstract class DrawingItem implements Comparable<DrawingItem> {
         this.color = color;
         previousState = null;
     }
+    abstract void paint(IPaintable paintable);
+    
     abstract void saveOldState();
     abstract boolean returnToPreviousState();
     public int compareTo(DrawingItem di){

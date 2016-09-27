@@ -14,6 +14,10 @@ public class Image extends DrawingItem{
         this.size = size;
     }
     
+    public void paint(IPaintable paintable){
+        
+    }
+    
         @Override
     void saveOldState(){
         Image temp = new Image(this.getAnchor(), this.getColor(), this.getFile(), this.getSize());

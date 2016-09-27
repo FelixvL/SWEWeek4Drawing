@@ -61,4 +61,9 @@ public class PaintedText extends DrawingItem {
         saveOldState();
         this.font = font;
     }   
+
+    @Override
+    void paint(IPaintable paintable) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
